@@ -5,6 +5,17 @@
   <body>
     <h1>Quiz</h1>
     <%= form_tag score_path do |f| %>
+      <% QUIZ_DATA.each do |question, answers| %>
+        <div>
+          <h2><%= question %></h2>
+          <% answers.keys.each do |answer| %>
+            <div>
+              <%= radio_button_tag question, answer %>
+              <%= label_tag question + "_" + answer, answer %>
+            </div>
+          <% end %>
+        </div>
+      <% end %>
       <%= submit_tag "Score my answers" %>
     <% end %>
   </body>
