@@ -22,3 +22,7 @@ This app lets you create your very own version of the quiz format commonly found
 * Keep track of how many people got which result
 * Read the questions/answers/results from a database
 * Be able to enter the questions/answers/results into the database easily
+
+# License
+
+MIT. See LICENSE.md.
