@@ -22,6 +22,7 @@ This app lets you create your very own version of the quiz format commonly found
 * Keep track of how many people got which result
 * Read the questions/answers/results from a database
 * Be able to enter the questions/answers/results into the database easily
+* Run this on heroku button
 
 # Running the app
 
@@ -29,6 +30,8 @@ This app lets you create your very own version of the quiz format commonly found
 
 * Install ruby 2.1.2 via your method of choice
 * `bundle`
+* `rails s`
+* Visit `http://localhost:3000`
 
 # License
 
