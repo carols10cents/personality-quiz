@@ -4,6 +4,15 @@
   </head>
   <body>
     <h1>You are <%= @top_result %>!</h1>
+
+    <table>
+      <% @all_results.each do |result, score| %>
+        <tr>
+          <td><%= result %></td>
+          <td><%= score %></td>
+        </tr>
+      <% end %>
+    </table>
     <%= link_to 'Take the quiz again!', root_path %>
   </body>
 </html>

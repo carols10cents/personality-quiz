@@ -14,7 +14,8 @@ class QuizController < ApplicationController
       end
     end
 
-    @top_result = results.max_by { |k, v| v }.first
+    @all_results = results.sort_by { |k, v| v }.reverse
+    @top_result = @all_results.first.first
     render :result
   end
 end
