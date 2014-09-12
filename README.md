@@ -23,6 +23,13 @@ This app lets you create your very own version of the quiz format commonly found
 * Read the questions/answers/results from a database
 * Be able to enter the questions/answers/results into the database easily
 
+# Running the app
+
+## Locally, for development
+
+* Install ruby 2.1.2 via your method of choice
+* `bundle`
+
 # License
 
 MIT. See LICENSE.md.
