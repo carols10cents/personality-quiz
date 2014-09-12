@@ -28,10 +28,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails-html-sanitizer', '~> 1.0'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'pg'
 
 group :development, :test do
   # Call 'debugger' anywhere in the code to stop execution and get a debugger console
