@@ -4,17 +4,11 @@ This app lets you create your very own version of the quiz format commonly found
 
 # Current features
 
-* Nothing!
-
-# Future features
-
-## MVP
-
-* Hardcode questions, answers, and results
+* Hardcode questions, answers, and results (in a file config/quiz_data.csv)
 * Have a form that displays the questions and answers
 * When you submit the form, calculate the result and display it
 
-## Dreams
+# Future features
 
 * Have a way to associate and display pictures with the results
 * Have a "tweet your results" button
