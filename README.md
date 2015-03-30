@@ -22,7 +22,7 @@ This app lets you create your very own version of the quiz format commonly found
 
 ## Locally, for development
 
-* Install ruby 2.1.2 via your method of choice
+* Install ruby 2.1.5 via your method of choice
 * `bundle`
 * `cp config/quiz-data.csv.example config/quiz-data.csv` and edit
 * `rails s`
